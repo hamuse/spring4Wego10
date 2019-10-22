@@ -1,0 +1,5 @@
+package com.wego.web.domain;
+
+public class AdminDTO {
+
+}

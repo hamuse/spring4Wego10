@@ -1,0 +1,5 @@
+package com.wego.web.mappers;
+
+public interface UserMapper {
+	public UserDTO selectUserById(UserDTO param);
+}

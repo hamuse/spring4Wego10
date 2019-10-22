@@ -1,0 +1,15 @@
+package com.wego.web.serviceimpl;
+
+import com.wego.web.domains.UserDTO;
+import com.wego.web.services.UserService;
+
+public class UserServiceImpl implements UserService {
+	 @Autowired UserMapper UserMapper;
+	 
+	@Override
+	public UserDTO login() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.wego.web.dao;
+
+
+
+public interface AdminDAO {
+
+}

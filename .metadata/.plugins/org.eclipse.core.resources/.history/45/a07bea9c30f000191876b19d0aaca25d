@@ -1,0 +1,8 @@
+package com.wego.web.services;
+
+
+public interface AdminService {
+	
+	
+
+}

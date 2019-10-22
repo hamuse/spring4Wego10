@@ -1,0 +1,14 @@
+var auth_vue = auth_vue || {}
+auth_vue = {}
+
+	join_form: ()=>{
+		return' '
+	},
+		lgin_form: ()=>{
+			
+			return''
+		},
+		mypage_form: ()=>{
+			return ''
+		}
+};

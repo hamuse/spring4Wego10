@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\parkc\spring\STS-workspace\wego\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2316543176.index
+1830768135.index
+3817057065.index
+2840004409.index
+2665669463.index

@@ -1,0 +1,5 @@
+package com.wego.web.domains;
+
+public class UserDTO {
+
+}

@@ -1,0 +1,11 @@
+package com.wego.web.serviceimpl;
+
+
+
+import com.wego.web.services.AdminService;
+
+public class AdminServiceImpl implements AdminService{
+	
+
+
+}

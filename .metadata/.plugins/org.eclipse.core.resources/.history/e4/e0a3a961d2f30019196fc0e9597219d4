@@ -1,0 +1,24 @@
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wego.web.mappers.UserMapper">
+    <resultMap type="com.wego.web.domains.UserDTO" id="usermap">
+        <id column="uid" property="uid"/>
+        <result column="pwd" property="pwd"/>
+        <result column="uname" property="uname"/>
+        <result column="birth" property="birth"/>
+        <result	 column="gender" property="gender"/>
+          <result	 column="tel" property="tel"/>
+            <result	 column="pettype" property="pettype"/>
+    </resultMap>
+
+    <select id="getUser" resultMap="usermap">
+        select * from users
+    </select>
+    <insert id="insert">
+        insert into users (uid, pwd, uname, birth,gender,tel,pettype) values (
+            #{id}, #{name}, #{funkyNumber}, #{roundingMode}
+        )
+    </insert>
+</mapper>

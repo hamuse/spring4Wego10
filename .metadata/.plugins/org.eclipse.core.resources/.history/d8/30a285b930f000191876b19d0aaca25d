@@ -1,0 +1,7 @@
+package com.wego.web.dao;
+
+import java.util.List;
+
+public interface DepartmentDAO {
+	public List<String> selectDName();
+}

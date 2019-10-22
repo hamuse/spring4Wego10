@@ -1,0 +1,6 @@
+package com.wego.web.services;
+
+public interface UserService {
+	 
+	public UserDTO login();
+}

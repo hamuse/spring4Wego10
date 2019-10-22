@@ -1,0 +1,29 @@
+package com.wego.web.serviceimpl;
+
+
+import com.web.team1.domains.DepartmentBean;
+import com.web.team1.domains.EmployeeBean;
+import com.wego.web.services.EmployeeService;
+
+public class AdminServiceImpl implements EmployeeService{
+	private static AdminServiceImpl instance = new AdminServiceImpl();
+	public static AdminServiceImpl getInstance() {
+		return instance;
+	}
+	
+	private AdminServiceImpl() {}
+
+	@Override
+	public void join(EmployeeBean param) {
+		System.out.println("�꽌鍮꾩뒪 議곗씤!!!!"+param.toString());
+		;
+		
+	}
+
+	@Override
+	public EmployeeBean login(EmployeeBean param, DepartmentBean db) {
+
+		return null;
+	}
+
+}

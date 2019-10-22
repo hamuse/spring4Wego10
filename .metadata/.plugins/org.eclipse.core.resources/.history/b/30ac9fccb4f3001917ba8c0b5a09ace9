@@ -1,0 +1,5 @@
+package com.wego.web.serviceimpl;
+
+public class UserServiceImpl {
+
+}

@@ -1,0 +1,10 @@
+package com.wego.web.services;
+
+import com.web.team1.domains.DepartmentBean;
+import com.web.team1.domains.EmployeeBean;
+
+public interface AdminService {
+	
+	
+
+}
